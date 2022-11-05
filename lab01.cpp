@@ -12,14 +12,6 @@ using namespace std;
 // ATENÇÃO!
 // Você é livre para incluir outras bibliotecas, implementar funções auxiliares, acrecentar definições, tipos e estruturas.
 
-// int relax(int u, int v, int w[])
-// {
-// 	if (v.d > u.d + w[u][v])
-// 	{
-// 		v.d = u.d + w[u][v]
-// 		v.pi = u
-// 	}
-// }
 
 class HaroldMap
 {
