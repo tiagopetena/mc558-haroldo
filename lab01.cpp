@@ -64,23 +64,101 @@ void dijkstra(HaroldMap G, vector<double> &d, int source)
     list<pair<int, double> >::iterator iter;
     
     Q.push(pair<int, double>(source, -1.0));
-    d[0] = 1.0;
+    d[source] = 1.0;
 
     while (!Q.empty())
     {   
         int u = Q.top().first;
         Q.pop();
-        cout << "u = " << u << "\n";
         for(iter = G.adj[u].begin();iter!=G.adj[u].end(); iter++){
+
+            // Relaxation step:
             int v = iter->first;
             float w = iter->second;
-            cout << "u v w = " << u<< " " <<v << " " <<w << endl;
             if(d[v] < d[u] * w)
             {
                 d[v] = d[u] * w;
                 Q.push(pair<int, double>(v, -d[v]));
             }
         }
+    }
+}
+
+double best_tree(vector<int> &ingredients, int k, int n, vector<int> &mapaIngredientes, int source, vector< vector<double> > &all_d)
+{
+
+    cout << "At land " << source << "\n";
+    cout << "\tMissing ingredients:\n";
+    cout << "\t\t";
+    for (int i = 0; i < k + 1; i++)
+    { 
+        if (ingredients[i] != 0)
+        {
+            /* code */
+            cout << ingredients[i] << " ";
+        }
+        
+    }
+    cout << "\n";
+
+    // No more ingredients!
+    int empty = 0;
+    for (int i = 0; i < k; i++)
+    { 
+        if (ingredients[i] != 0)
+        {
+            empty = 1;
+            break;
+        }
+        
+    }
+    if (empty == 0)
+    {        
+        return all_d[source][n - 1];
+    }
+
+    // Some ingredients left at Q.
+    else {
+
+        for (int i = 0; i < k; i++)
+        {
+            if (ingredients[i] == mapaIngredientes[source]){
+                ingredients[i] = 0;
+                break;
+            }
+        }
+        
+
+        vector<double> childProbs(n , 0);
+        for (int i = 0; i < k + 1; i++ )
+        {
+            if (ingredients[i] == 0) continue;
+            for (int land_i = 0; land_i < n; land_i++)
+            {
+                if (land_i == source) continue;
+                if (ingredients[i] == mapaIngredientes[land_i])
+                {
+                    vector<int> dummy_ingredients(ingredients);
+                    childProbs[land_i] = best_tree(dummy_ingredients, k, n, mapaIngredientes, land_i, all_d);
+                }
+                
+            }
+        }
+
+        double max_prob = 0;
+        double chosen_land = -1;
+        for (int land_i = 0; land_i < n; land_i++)
+        {   
+            cout << childProbs[land_i] << " ";
+            if (childProbs[land_i] > max_prob) 
+            {
+                max_prob = childProbs[land_i];
+                chosen_land = land_i;
+            }
+        }
+
+        cout << "Max pprod " << max_prob << " at " << chosen_land << "\n";
+        return max_prob * all_d[source][chosen_land];
     }
 }
 
@@ -98,25 +176,40 @@ double melhorRota(int n, int m, vector<vector<int> > &pontes, vector<double> &pr
     {
         cout << probPontes[i] << "\n";
     }
-	// MODIFIQUE AQUI NO MEIO
     std::cout << pontes[0][0] << ' ';
-    cout << "GG";
     HaroldMap G(n, m, pontes, probPontes);
     G.print_adj();
-    vector<double> d(G.nTerras, 0.0);
-    cout << "GG";
-    dijkstra(G, d, 0);
-    for (int i = 0; i < G.nTerras; i++)
+    vector< vector<double> > all_d(G.nTerras);
+
+    // Find all Ds
+    for (int terraIdx = 0; terraIdx < G.nTerras; terraIdx++)
     {
-        double w = d[i];
-        cout << w << " ";
+        vector<double> d(G.nTerras, 0.0);
+        dijkstra(G, d, terraIdx);
+        all_d[terraIdx] = d;
     }
-    cout << "\n";
-    for (int i = 0; i < mapaIngredientes.size(); i++)
+
+    // print prob matrix
+    for (int terraIdx = 0; terraIdx < G.nTerras; terraIdx++)
     {
-        int w = mapaIngredientes[i];
-        cout << w << " ";
+        cout <<  fixed << setprecision(5) << terraIdx << ": ";
+        for (int i = 0; i < G.nTerras; i++)
+        {
+            double w = all_d[terraIdx][i];
+            cout << fixed << setprecision(5) << w << " ";
+        }
+        cout << "\n";
     }
+
+
+    vector<int> ingredients(k + 1, 0);
+    for (int i = 0; i <= k; i++)
+    {
+        ingredients[i] = i;
+    }
+    
+
+    resultado = best_tree(ingredients, k, n, mapaIngredientes, 0, all_d);
     
 	return resultado;
 }
