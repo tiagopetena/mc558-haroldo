@@ -1,0 +1,75 @@
+Teste 01: resultado correto
+Teste 02: resultado correto
+Teste 03: resultado correto
+Teste 04: resultado correto
+Teste 05: resultado correto
+Teste 06: resultado incorreto
+
+    -0.00002						      |	0.00000
+
+Teste 07: erro de processamento 
+
+    tempo máximo de processamento excedido (código 137)
+
+Teste 08: erro de processamento 
+
+    tempo máximo de processamento excedido (código 137)
+
+Teste 09: erro de processamento 
+
+    tempo máximo de processamento excedido (código 137)
+
+Teste 10: resultado correto
+Teste 11: resultado correto
+Teste 12: resultado correto
+Teste 13: resultado incorreto
+
+    -0.00000						      |	0.00000
+
+Teste 14: resultado correto
+Teste 15: resultado correto
+Teste 16: erro de processamento 
+
+    tempo máximo de processamento excedido (código 137)
+
+Teste 17: erro de processamento 
+
+    tempo máximo de processamento excedido (código 137)
+
+Teste 18: erro de processamento 
+
+    tempo máximo de processamento excedido (código 137)
+
+Teste 19: erro de processamento 
+
+    tempo máximo de processamento excedido (código 137)
+
+Teste 20: erro de processamento 
+
+    tempo máximo de processamento excedido (código 137)
+
+Teste 21: erro de processamento 
+
+    tempo máximo de processamento excedido (código 137)
+
+Teste 22: resultado correto
+Teste 23: resultado correto
+Teste 24: resultado correto
+Teste 25: erro de processamento 
+
+    tempo máximo de processamento excedido (código 137)
+
+Teste 26: resultado incorreto
+
+Teste 27: erro de processamento 
+
+    tempo máximo de processamento excedido (código 137)
+
+Teste 28: erro de processamento 
+
+    tempo máximo de processamento excedido (código 137)
+
+Teste 29: resultado correto
+Teste 30: erro de processamento 
+
+    tempo máximo de processamento excedido (código 137)
