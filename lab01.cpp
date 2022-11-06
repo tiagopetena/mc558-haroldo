@@ -5,6 +5,7 @@
 #include <set>
 #include <list>
 #include <cmath>
+#include <map>
 using namespace std;
 
 #define NIL -1
@@ -34,12 +35,10 @@ HaroldMap::HaroldMap(int n, int m, vector<vector<int> > &pontes, vector<double> 
         int u = pontes[i][0];
         int v = pontes[i][1];
         double w = probPontes[i];
-        cout << "adding "<< u << ", " << v << " - " << w << '\n';
         pair<int, double> p1(v, w);
         pair<int, double> p2(u, w);
         this->adj[u].push_back(p1);
         this->adj[v].push_back(p2);
-        cout << "added " << this->adj[u].back().second << '\n';
     }
     
 
@@ -84,34 +83,17 @@ void dijkstra(HaroldMap G, vector<double> &d, int source)
     }
 }
 
-double best_tree(vector<int> &ingredients, int k, int n, vector<int> &mapaIngredientes, int source, vector< vector<double> > &all_d)
+double best_tree(vector<int> &ingredients, int k, int n, vector<int> &mapaIngredientes, int source, vector< vector<double> > &all_d, map<vector<int>, vector<double> > &C)
 {
-
-    cout << "At land " << source << "\n";
     // Get ingredient from current island
     for (int i = 0; i < k; i++)
     {
         if (ingredients[i] == mapaIngredientes[source])
         {
-            std::cout << "\tGot ingredient " << ingredients[i] << " from Land " << source << ".\n";
             ingredients[i] = 0;
             break;
         }
     }
-    
-    // Printing stuff
-    cout << "\tMissing ingredients:\n";
-    cout << "\t\t";
-    for (int i = 0; i < k; i++)
-    { 
-        if (ingredients[i] != 0)
-        {
-            /* code */
-            cout << ingredients[i] << " ";
-        }        
-    }
-    cout << "\n";
-
 
     // Check number of ingredients left.
     int empty = 0;
@@ -126,15 +108,25 @@ double best_tree(vector<int> &ingredients, int k, int n, vector<int> &mapaIngred
     }
     // No more ingredients!
     if (empty == 0)
-    {        
-        std::cout << "\tGot all ingredients! returning...\n";
+    {
         double cost2lab = all_d[source][n - 1];
-        std::cout << "\tCost to lab is " << cost2lab << "\n";
         return cost2lab;
     }
-
     // Some ingredients left at Q.
     else {
+        // Find ingredients combination in map
+        if (C.find(ingredients) == C.end()) {
+            // not found -> create new
+            vector<double> newCosts(n, -1);
+            C[ingredients] = newCosts;
+        } else {
+            // found -> check if already calculated
+            double cost = C[ingredients][source];
+            if (cost != -1)
+            {
+                return cost;
+            }
+        }
         vector<double> childProbs(n , -1);
 
         for (int i = 0; i < k; i++ )
@@ -146,7 +138,7 @@ double best_tree(vector<int> &ingredients, int k, int n, vector<int> &mapaIngred
                 if (ingredients[i] == mapaIngredientes[land_i])
                 {
                     vector<int> dummy_ingredients(ingredients);
-                    childProbs[land_i] = best_tree(dummy_ingredients, k, n, mapaIngredientes, land_i, all_d);
+                    childProbs[land_i] = best_tree(dummy_ingredients, k, n, mapaIngredientes, land_i, all_d, C);
                 }
                 
             }
@@ -160,7 +152,6 @@ double best_tree(vector<int> &ingredients, int k, int n, vector<int> &mapaIngred
         {   
             source2Land = all_d[source][land_i];
             pathProb = childProbs[land_i] * source2Land;
-            cout << childProbs[land_i] << " ";
             if (pathProb > max_prob) 
             {
                 max_prob = pathProb;
@@ -173,15 +164,9 @@ double best_tree(vector<int> &ingredients, int k, int n, vector<int> &mapaIngred
             return 0;
         }
         
-
-        cout << "Max prob " << max_prob << " from " << source << " to " << chosen_land << "\n";
+        C[ingredients][source] = max_prob;
         return max_prob;
-    }
-    while (1)
-    {
-        cout << "oopsy\n";
-    }
-    
+    }    
 }
 
 // Esta função deve retornar o valor obtido pela sua solução //
@@ -194,13 +179,8 @@ double best_tree(vector<int> &ingredients, int k, int n, vector<int> &mapaIngred
 double melhorRota(int n, int m, vector<vector<int> > &pontes, vector<double> &probPontes, int k, vector<int> &mapaIngredientes)
 {
 	double resultado = NIL;
-    for (int i = 0; i < m; i++)
-    {
-        cout << probPontes[i] << "\n";
-    }
-    std::cout << pontes[0][0] << ' ';
     HaroldMap G(n, m, pontes, probPontes);
-    G.print_adj();
+    // G.print_adj();
     vector< vector<double> > all_d(G.nTerras);
 
     // Find all Ds
@@ -212,16 +192,16 @@ double melhorRota(int n, int m, vector<vector<int> > &pontes, vector<double> &pr
     }
 
     // print prob matrix
-    for (int terraIdx = 0; terraIdx < G.nTerras; terraIdx++)
-    {
-        cout <<  fixed << setprecision(5) << terraIdx << ": ";
-        for (int i = 0; i < G.nTerras; i++)
-        {
-            double w = all_d[terraIdx][i];
-            cout << fixed << setprecision(5) << w << " ";
-        }
-        cout << "\n";
-    }
+    // for (int terraIdx = 0; terraIdx < G.nTerras; terraIdx++)
+    // {
+    //     cout <<  fixed << setprecision(5) << terraIdx << ": ";
+    //     for (int i = 0; i < G.nTerras; i++)
+    //     {
+    //         double w = all_d[terraIdx][i];
+    //         cout << fixed << setprecision(5) << w << " ";
+    //     }
+    //     cout << "\n";
+    // }
 
 
     vector<int> ingredients(k, 0);
@@ -229,9 +209,11 @@ double melhorRota(int n, int m, vector<vector<int> > &pontes, vector<double> &pr
     {
         ingredients[i] = i + 1;
     }
+
+    map<vector<int>, vector<double> > C;
     
 
-    resultado = best_tree(ingredients, k, n, mapaIngredientes, 0, all_d);
+    resultado = best_tree(ingredients, k, n, mapaIngredientes, 0, all_d, C);
     
 	return resultado;
 }
