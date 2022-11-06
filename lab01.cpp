@@ -145,6 +145,12 @@ double best_tree(vector<int> &ingredients, int k, int n, vector<int> &mapaIngred
             }
         }
 
+        if (max_prob < 0)
+        {
+            return 0;
+        }
+        
+
         return max_prob;
     }    
 }

@@ -3,10 +3,7 @@ Teste 02: resultado correto
 Teste 03: resultado correto
 Teste 04: resultado correto
 Teste 05: resultado correto
-Teste 06: resultado incorreto
-
-    -0.00002						      |	0.00000
-
+Teste 06: resultado correto
 Teste 07: erro de processamento 
 
     tempo máximo de processamento excedido (código 137)
@@ -22,10 +19,7 @@ Teste 09: erro de processamento
 Teste 10: resultado correto
 Teste 11: resultado correto
 Teste 12: resultado correto
-Teste 13: resultado incorreto
-
-    -0.00000						      |	0.00000
-
+Teste 13: resultado correto
 Teste 14: resultado correto
 Teste 15: resultado correto
 Teste 16: erro de processamento 
