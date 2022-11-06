@@ -168,6 +168,12 @@ double best_tree(vector<int> &ingredients, int k, int n, vector<int> &mapaIngred
             }
         }
 
+        if (max_prob < 0)
+        {
+            return 0;
+        }
+        
+
         cout << "Max prob " << max_prob << " from " << source << " to " << chosen_land << "\n";
         return max_prob;
     }
