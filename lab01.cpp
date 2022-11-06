@@ -110,6 +110,10 @@ double best_tree(vector<int> &ingredients, int k, int n, vector<int> &mapaIngred
     if (empty == 0)
     {
         double cost2lab = all_d[source][n - 1];
+        if (cost2lab <= 0)
+        {
+            return 0;
+        }
         return cost2lab;
     }
     // Some ingredients left at Q.
@@ -156,14 +160,14 @@ double best_tree(vector<int> &ingredients, int k, int n, vector<int> &mapaIngred
                 max_prob = pathProb;
             }
         }
-
         if (max_prob < 0)
         {
-            return 0;
+            max_prob = 0;
         }
-        
         C[ingredients][source] = max_prob;
-        return max_prob;
+
+        
+        return abs(max_prob);
     }    
 }
 
@@ -185,8 +189,11 @@ double melhorRota(int n, int m, vector<vector<int> > &pontes, vector<double> &pr
     for (int terraIdx = 0; terraIdx < G.nTerras; terraIdx++)
     {
         vector<double> d(G.nTerras, 0.0);
-        dijkstra(G, d, terraIdx);
-        all_d[terraIdx] = d;
+        if (mapaIngredientes[terraIdx] != 0 || terraIdx == 0 || terraIdx == n-1)
+        {
+            dijkstra(G, d, terraIdx);
+            all_d[terraIdx] = d;
+        }
     }
 
     // print prob matrix
