@@ -88,20 +88,32 @@ double best_tree(vector<int> &ingredients, int k, int n, vector<int> &mapaIngred
 {
 
     cout << "At land " << source << "\n";
+    // Get ingredient from current island
+    for (int i = 0; i < k; i++)
+    {
+        if (ingredients[i] == mapaIngredientes[source])
+        {
+            std::cout << "\tGot ingredient " << ingredients[i] << " from Land " << source << ".\n";
+            ingredients[i] = 0;
+            break;
+        }
+    }
+    
+    // Printing stuff
     cout << "\tMissing ingredients:\n";
     cout << "\t\t";
-    for (int i = 0; i < k + 1; i++)
+    for (int i = 0; i < k; i++)
     { 
         if (ingredients[i] != 0)
         {
             /* code */
             cout << ingredients[i] << " ";
-        }
-        
+        }        
     }
     cout << "\n";
 
-    // No more ingredients!
+
+    // Check number of ingredients left.
     int empty = 0;
     for (int i = 0; i < k; i++)
     { 
@@ -112,30 +124,25 @@ double best_tree(vector<int> &ingredients, int k, int n, vector<int> &mapaIngred
         }
         
     }
+    // No more ingredients!
     if (empty == 0)
     {        
-        return all_d[source][n - 1];
+        std::cout << "\tGot all ingredients! returning...\n";
+        double cost2lab = all_d[source][n - 1];
+        std::cout << "\tCost to lab is " << cost2lab << "\n";
+        return cost2lab;
     }
 
     // Some ingredients left at Q.
     else {
+        vector<double> childProbs(n , -1);
 
-        for (int i = 0; i < k; i++)
+        for (int i = 0; i < k; i++ )
         {
-            if (ingredients[i] == mapaIngredientes[source]){
-                ingredients[i] = 0;
-                break;
-            }
-        }
-        
-
-        vector<double> childProbs(n , 0);
-        for (int i = 0; i < k + 1; i++ )
-        {
-            if (ingredients[i] == 0) continue;
+            if (ingredients[i] == 0) {continue;}
             for (int land_i = 0; land_i < n; land_i++)
             {
-                if (land_i == source) continue;
+                // Missing ingredient at location
                 if (ingredients[i] == mapaIngredientes[land_i])
                 {
                     vector<int> dummy_ingredients(ingredients);
@@ -145,21 +152,30 @@ double best_tree(vector<int> &ingredients, int k, int n, vector<int> &mapaIngred
             }
         }
 
-        double max_prob = 0;
-        double chosen_land = -1;
+        double max_prob = -1;
+        double source2Land = -1;
+        double pathProb = -1;
+        int chosen_land = -1;
         for (int land_i = 0; land_i < n; land_i++)
         {   
+            source2Land = all_d[source][land_i];
+            pathProb = childProbs[land_i] * source2Land;
             cout << childProbs[land_i] << " ";
-            if (childProbs[land_i] > max_prob) 
+            if (pathProb > max_prob) 
             {
-                max_prob = childProbs[land_i];
+                max_prob = pathProb;
                 chosen_land = land_i;
             }
         }
 
-        cout << "Max pprod " << max_prob << " at " << chosen_land << "\n";
-        return max_prob * all_d[source][chosen_land];
+        cout << "Max prob " << max_prob << " from " << source << " to " << chosen_land << "\n";
+        return max_prob;
     }
+    while (1)
+    {
+        cout << "oopsy\n";
+    }
+    
 }
 
 // Esta função deve retornar o valor obtido pela sua solução //
@@ -202,10 +218,10 @@ double melhorRota(int n, int m, vector<vector<int> > &pontes, vector<double> &pr
     }
 
 
-    vector<int> ingredients(k + 1, 0);
-    for (int i = 0; i <= k; i++)
+    vector<int> ingredients(k, 0);
+    for (int i = 0; i < k; i++)
     {
-        ingredients[i] = i;
+        ingredients[i] = i + 1;
     }
     
 
