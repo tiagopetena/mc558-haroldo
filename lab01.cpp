@@ -147,7 +147,6 @@ double best_tree(vector<int> &ingredients, int k, int n, vector<int> &mapaIngred
         double max_prob = -1;
         double source2Land = -1;
         double pathProb = -1;
-        int chosen_land = -1;
         for (int land_i = 0; land_i < n; land_i++)
         {   
             source2Land = all_d[source][land_i];
@@ -155,7 +154,6 @@ double best_tree(vector<int> &ingredients, int k, int n, vector<int> &mapaIngred
             if (pathProb > max_prob) 
             {
                 max_prob = pathProb;
-                chosen_land = land_i;
             }
         }
 
