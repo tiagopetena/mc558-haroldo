@@ -83,7 +83,7 @@ void dijkstra(HaroldMap G, vector<double> &d, int source)
     }
 }
 
-double best_tree(vector<int> &ingredients, int k, int n, vector<int> &mapaIngredientes, int source, vector< vector<double> > &all_d, map<vector<int>, vector<double> > &C)
+double bestTree(vector<int> &ingredients, int k, int n, vector<int> &mapaIngredientes, int source, vector< vector<double> > &all_d, map<vector<int>, vector<double> > &C)
 {
     // Get ingredient from current island
     for (int i = 0; i < k; i++)
@@ -118,6 +118,7 @@ double best_tree(vector<int> &ingredients, int k, int n, vector<int> &mapaIngred
     }
     // Some ingredients left at Q.
     else {
+        vector<double> childProbs(n , -1);
         // Find ingredients combination in map
         if (C.find(ingredients) == C.end()) {
             // not found -> create new
@@ -131,7 +132,6 @@ double best_tree(vector<int> &ingredients, int k, int n, vector<int> &mapaIngred
                 return cost;
             }
         }
-        vector<double> childProbs(n , -1);
 
         for (int i = 0; i < k; i++ )
         {
@@ -142,7 +142,7 @@ double best_tree(vector<int> &ingredients, int k, int n, vector<int> &mapaIngred
                 if (ingredients[i] == mapaIngredientes[land_i])
                 {
                     vector<int> dummy_ingredients(ingredients);
-                    childProbs[land_i] = best_tree(dummy_ingredients, k, n, mapaIngredientes, land_i, all_d, C);
+                    childProbs[land_i] = bestTree(dummy_ingredients, k, n, mapaIngredientes, land_i, all_d, C);
                 }
                 
             }
@@ -182,8 +182,9 @@ double melhorRota(int n, int m, vector<vector<int> > &pontes, vector<double> &pr
 {
 	double resultado = NIL;
     HaroldMap G(n, m, pontes, probPontes);
-    // G.print_adj();
-    vector< vector<double> > all_d(G.nTerras);
+    vector< vector<double> > probMatrix(G.nTerras);
+    vector<int> ingredients(k, 0);
+    map<vector<int>, vector<double> > C;
 
     // Find all Ds
     for (int terraIdx = 0; terraIdx < G.nTerras; terraIdx++)
@@ -192,33 +193,17 @@ double melhorRota(int n, int m, vector<vector<int> > &pontes, vector<double> &pr
         if (mapaIngredientes[terraIdx] != 0 || terraIdx == 0 || terraIdx == n-1)
         {
             dijkstra(G, d, terraIdx);
-            all_d[terraIdx] = d;
+            probMatrix[terraIdx] = d;
         }
     }
 
-    // print prob matrix
-    // for (int terraIdx = 0; terraIdx < G.nTerras; terraIdx++)
-    // {
-    //     cout <<  fixed << setprecision(5) << terraIdx << ": ";
-    //     for (int i = 0; i < G.nTerras; i++)
-    //     {
-    //         double w = all_d[terraIdx][i];
-    //         cout << fixed << setprecision(5) << w << " ";
-    //     }
-    //     cout << "\n";
-    // }
-
-
-    vector<int> ingredients(k, 0);
+    // Init ingredients
     for (int i = 0; i < k; i++)
     {
         ingredients[i] = i + 1;
     }
-
-    map<vector<int>, vector<double> > C;
-    
-
-    resultado = best_tree(ingredients, k, n, mapaIngredientes, 0, all_d, C);
+    // 
+    resultado = bestTree(ingredients, k, n, mapaIngredientes, 0, probMatrix, C);
     
 	return resultado;
 }

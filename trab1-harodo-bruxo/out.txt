@@ -1,0 +1,5487 @@
+0.94
+0.21
+0.04
+0.09
+0.4
+0.89
+0.17
+0.69
+0.03
+0.94
+0
+0.66
+0.28
+0.77
+0
+0.52
+0.28
+0.33
+0.73
+0.7
+0.51
+0.12
+0 adding 0, 9 - 0.94
+added 0.94
+adding 9, 10 - 0.21
+added 0.21
+adding 9, 3 - 0.04
+added 0.04
+adding 3, 13 - 0.09
+added 0.09
+adding 9, 8 - 0.4
+added 0.4
+adding 10, 14 - 0.89
+added 0.89
+adding 3, 2 - 0.17
+added 0.17
+adding 2, 6 - 0.69
+added 0.69
+adding 10, 12 - 0.03
+added 0.03
+adding 10, 15 - 0.94
+added 0.94
+adding 3, 5 - 0
+added 0
+adding 10, 11 - 0.66
+added 0.66
+adding 3, 7 - 0.28
+added 0.28
+adding 9, 1 - 0.77
+added 0.77
+adding 3, 4 - 0
+added 0
+adding 11, 9 - 0.52
+added 0.52
+adding 7, 10 - 0.28
+added 0.28
+adding 8, 5 - 0.33
+added 0.33
+adding 13, 3 - 0.73
+added 0.73
+adding 3, 10 - 0.7
+added 0.7
+adding 11, 7 - 0.51
+added 0.51
+adding 6, 0 - 0.12
+added 0.12
+(0,9) - 0.94
+(0,6) - 0.12
+(1,9) - 0.77
+(2,3) - 0.17
+(2,6) - 0.69
+(3,9) - 0.04
+(3,13) - 0.09
+(3,2) - 0.17
+(3,5) - 0
+(3,7) - 0.28
+(3,4) - 0
+(3,13) - 0.73
+(3,10) - 0.7
+(4,3) - 0
+(5,3) - 0
+(5,8) - 0.33
+(6,2) - 0.69
+(6,0) - 0.12
+(7,3) - 0.28
+(7,10) - 0.28
+(7,11) - 0.51
+(8,9) - 0.4
+(8,5) - 0.33
+(9,0) - 0.94
+(9,10) - 0.21
+(9,3) - 0.04
+(9,8) - 0.4
+(9,1) - 0.77
+(9,11) - 0.52
+(10,9) - 0.21
+(10,14) - 0.89
+(10,12) - 0.03
+(10,15) - 0.94
+(10,11) - 0.66
+(10,7) - 0.28
+(10,3) - 0.7
+(11,10) - 0.66
+(11,9) - 0.52
+(11,7) - 0.51
+(12,10) - 0.03
+(13,3) - 0.09
+(13,3) - 0.73
+(14,10) - 0.89
+(15,10) - 0.94
+0: 1.00000 0.72380 0.08280 0.22583 0.00000 0.12408 0.12000 0.24929 0.37600 0.94000 0.32261 0.48880 0.00968 0.16485 0.28712 0.30325 
+1: 0.72380 1.00000 0.05993 0.18498 0.00000 0.10164 0.08686 0.20420 0.30800 0.77000 0.26426 0.40040 0.00793 0.13504 0.23519 0.24841 
+2: 0.08280 0.05993 1.00000 0.17000 0.00000 0.01027 0.69000 0.04760 0.03113 0.07783 0.11900 0.07854 0.00357 0.12410 0.10591 0.11186 
+3: 0.22583 0.18498 0.17000 1.00000 0.00000 0.03171 0.11730 0.28000 0.09610 0.24024 0.70000 0.46200 0.02100 0.73000 0.62300 0.65800 
+4: 0.00000 0.00000 0.00000 0.00000 1.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 
+5: 0.12408 0.10164 0.01027 0.03171 0.00000 1.00000 0.01489 0.03501 0.33000 0.13200 0.04530 0.06864 0.00136 0.02315 0.04032 0.04258 
+6: 0.12000 0.08686 0.69000 0.11730 0.00000 0.01489 1.00000 0.03284 0.04512 0.11280 0.08211 0.05866 0.00246 0.08563 0.07308 0.07718 
+7: 0.24929 0.20420 0.04760 0.28000 0.00000 0.03501 0.03284 1.00000 0.10608 0.26520 0.33660 0.51000 0.01010 0.20440 0.29957 0.31640 
+8: 0.37600 0.30800 0.03113 0.09610 0.00000 0.33000 0.04512 0.10608 1.00000 0.40000 0.13728 0.20800 0.00412 0.07015 0.12218 0.12904 
+9: 0.94000 0.77000 0.07783 0.24024 0.00000 0.13200 0.11280 0.26520 0.40000 1.00000 0.34320 0.52000 0.01030 0.17538 0.30545 0.32261 
+10: 0.32261 0.26426 0.11900 0.70000 0.00000 0.04530 0.08211 0.33660 0.13728 0.34320 1.00000 0.66000 0.03000 0.51100 0.89000 0.94000 
+11: 0.48880 0.40040 0.07854 0.46200 0.00000 0.06864 0.05866 0.51000 0.20800 0.52000 0.66000 1.00000 0.01980 0.33726 0.58740 0.62040 
+12: 0.00968 0.00793 0.00357 0.02100 0.00000 0.00136 0.00246 0.01010 0.00412 0.01030 0.03000 0.01980 1.00000 0.01533 0.02670 0.02820 
+13: 0.16485 0.13504 0.12410 0.73000 0.00000 0.02315 0.08563 0.20440 0.07015 0.17538 0.51100 0.33726 0.01533 1.00000 0.45479 0.48034 
+14: 0.28712 0.23519 0.10591 0.62300 0.00000 0.04032 0.07308 0.29957 0.12218 0.30545 0.89000 0.58740 0.02670 0.45479 1.00000 0.83660 
+15: 0.30325 0.24841 0.11186 0.65800 0.00000 0.04258 0.07718 0.31640 0.12904 0.32261 0.94000 0.62040 0.02820 0.48034 0.83660 1.00000 
+At land 0
+	Missing ingredients:
+		1 2 3 4 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		2 3 4 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		3 4 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 1 to 2
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 11 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 2 to 11
+-1.00000 0.00670 0.04873 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.00879 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.04873 from 5 to 2
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		3 4 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 1 to 2
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 11 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 2 to 11
+-1.00000 0.00670 0.04873 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.00879 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.04873 from 6 to 2
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		3 4 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 1 to 2
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 11 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 2 to 11
+-1.00000 0.00670 0.04873 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.00879 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.04873 from 9 to 2
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		3 4 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 1 to 2
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 11 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 2 to 11
+-1.00000 0.00670 0.04873 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.00879 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.04873 from 12 to 2
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		2 4 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 5 to 2
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 6 to 2
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 9 to 2
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 12 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 2 to 9
+-1.00000 -1.00000 0.02511 -1.00000 -1.00000 0.00115 0.07718 -1.00000 -1.00000 0.00871 -1.00000 -1.00000 0.00040 -1.00000 -1.00000 -1.00000 Max prob 0.07718 from 1 to 6
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		2 4 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 5 to 2
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 6 to 2
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 9 to 2
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 12 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 2 to 9
+-1.00000 -1.00000 0.02511 -1.00000 -1.00000 0.00115 0.07718 -1.00000 -1.00000 0.00871 -1.00000 -1.00000 0.00040 -1.00000 -1.00000 -1.00000 Max prob 0.07718 from 11 to 6
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		2 3 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 5 to 11
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 6 to 11
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 9 to 11
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 12 to 11
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 1 to 9
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 11 to 9
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 0.04258 0.03639 -1.00000 -1.00000 0.32261 -1.00000 0.16776 0.01228 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 2 to 9
+-1.00000 0.00670 0.02511 -1.00000 -1.00000 0.00050 0.03362 -1.00000 -1.00000 0.00379 -1.00000 0.00453 0.00017 -1.00000 -1.00000 -1.00000 Max prob 0.03362 from 3 to 6
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		2 3 4 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		3 4 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 1 to 2
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 11 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 2 to 11
+-1.00000 0.00670 0.04873 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.00879 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.04873 from 5 to 2
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		3 4 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 1 to 2
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 11 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 2 to 11
+-1.00000 0.00670 0.04873 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.00879 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.04873 from 6 to 2
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		3 4 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 1 to 2
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 11 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 2 to 11
+-1.00000 0.00670 0.04873 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.00879 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.04873 from 9 to 2
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		3 4 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 1 to 2
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 11 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 2 to 11
+-1.00000 0.00670 0.04873 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.00879 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.04873 from 12 to 2
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		2 4 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 5 to 2
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 6 to 2
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 9 to 2
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 12 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 2 to 9
+-1.00000 -1.00000 0.02511 -1.00000 -1.00000 0.00115 0.07718 -1.00000 -1.00000 0.00871 -1.00000 -1.00000 0.00040 -1.00000 -1.00000 -1.00000 Max prob 0.07718 from 1 to 6
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		2 4 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 5 to 2
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 6 to 2
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 9 to 2
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 12 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 2 to 9
+-1.00000 -1.00000 0.02511 -1.00000 -1.00000 0.00115 0.07718 -1.00000 -1.00000 0.00871 -1.00000 -1.00000 0.00040 -1.00000 -1.00000 -1.00000 Max prob 0.07718 from 11 to 6
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		2 3 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 5 to 11
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 6 to 11
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 9 to 11
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 12 to 11
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 1 to 9
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 11 to 9
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 0.04258 0.03639 -1.00000 -1.00000 0.32261 -1.00000 0.16776 0.01228 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 2 to 9
+-1.00000 0.00670 0.02511 -1.00000 -1.00000 0.00050 0.03362 -1.00000 -1.00000 0.00379 -1.00000 0.00453 0.00017 -1.00000 -1.00000 -1.00000 Max prob 0.03362 from 8 to 6
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		2 3 4 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		3 4 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 1 to 2
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 11 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 2 to 11
+-1.00000 0.00670 0.04873 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.00879 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.04873 from 5 to 2
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		3 4 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 1 to 2
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 11 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 2 to 11
+-1.00000 0.00670 0.04873 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.00879 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.04873 from 6 to 2
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		3 4 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 1 to 2
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 11 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 2 to 11
+-1.00000 0.00670 0.04873 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.00879 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.04873 from 9 to 2
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		3 4 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 1 to 2
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 11 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 2 to 11
+-1.00000 0.00670 0.04873 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.00879 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.04873 from 12 to 2
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		2 4 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 5 to 2
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 6 to 2
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 9 to 2
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 12 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 2 to 9
+-1.00000 -1.00000 0.02511 -1.00000 -1.00000 0.00115 0.07718 -1.00000 -1.00000 0.00871 -1.00000 -1.00000 0.00040 -1.00000 -1.00000 -1.00000 Max prob 0.07718 from 1 to 6
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		2 4 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 5 to 2
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 6 to 2
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 9 to 2
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 12 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 2 to 9
+-1.00000 -1.00000 0.02511 -1.00000 -1.00000 0.00115 0.07718 -1.00000 -1.00000 0.00871 -1.00000 -1.00000 0.00040 -1.00000 -1.00000 -1.00000 Max prob 0.07718 from 11 to 6
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		2 3 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 5 to 11
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 6 to 11
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 9 to 11
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 12 to 11
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 1 to 9
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 11 to 9
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 0.04258 0.03639 -1.00000 -1.00000 0.32261 -1.00000 0.16776 0.01228 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 2 to 9
+-1.00000 0.00670 0.02511 -1.00000 -1.00000 0.00050 0.03362 -1.00000 -1.00000 0.00379 -1.00000 0.00453 0.00017 -1.00000 -1.00000 -1.00000 Max prob 0.03362 from 13 to 6
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		1 3 4 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		3 4 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 1 to 2
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 11 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 2 to 11
+-1.00000 0.00670 0.04873 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.00879 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.04873 from 3 to 2
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		3 4 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 1 to 2
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 11 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 2 to 11
+-1.00000 0.00670 0.04873 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.00879 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.04873 from 8 to 2
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		3 4 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 1 to 2
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 11 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 2 to 11
+-1.00000 0.00670 0.04873 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.00879 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.04873 from 13 to 2
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		1 4 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 3 to 2
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 8 to 2
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 13 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 2 to 3
+-1.00000 -1.00000 0.11186 0.01902 -1.00000 -1.00000 -1.00000 -1.00000 0.00348 -1.00000 -1.00000 -1.00000 -1.00000 0.01388 -1.00000 -1.00000 Max prob 0.11186 from 1 to 2
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		1 4 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 3 to 2
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 8 to 2
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 13 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 2 to 3
+-1.00000 -1.00000 0.11186 0.01902 -1.00000 -1.00000 -1.00000 -1.00000 0.00348 -1.00000 -1.00000 -1.00000 -1.00000 0.01388 -1.00000 -1.00000 Max prob 0.11186 from 11 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		1 3 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 3 to 11
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 8 to 11
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 13 to 11
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 1 to 3
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 11 to 3
+-1.00000 0.12172 -1.00000 0.28662 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 0.30400 -1.00000 0.20924 -1.00000 -1.00000 Max prob 0.30400 from 2 to 11
+-1.00000 0.00670 0.02388 0.00828 -1.00000 -1.00000 -1.00000 -1.00000 0.00152 -1.00000 -1.00000 0.00879 -1.00000 0.00605 -1.00000 -1.00000 Max prob 0.02388 from 5 to 2
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		1 3 4 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		3 4 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 1 to 2
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 11 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 2 to 11
+-1.00000 0.00670 0.04873 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.00879 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.04873 from 3 to 2
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		3 4 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 1 to 2
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 11 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 2 to 11
+-1.00000 0.00670 0.04873 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.00879 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.04873 from 8 to 2
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		3 4 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 1 to 2
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 11 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 2 to 11
+-1.00000 0.00670 0.04873 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.00879 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.04873 from 13 to 2
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		1 4 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 3 to 2
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 8 to 2
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 13 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 2 to 3
+-1.00000 -1.00000 0.11186 0.01902 -1.00000 -1.00000 -1.00000 -1.00000 0.00348 -1.00000 -1.00000 -1.00000 -1.00000 0.01388 -1.00000 -1.00000 Max prob 0.11186 from 1 to 2
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		1 4 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 3 to 2
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 8 to 2
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 13 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 2 to 3
+-1.00000 -1.00000 0.11186 0.01902 -1.00000 -1.00000 -1.00000 -1.00000 0.00348 -1.00000 -1.00000 -1.00000 -1.00000 0.01388 -1.00000 -1.00000 Max prob 0.11186 from 11 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		1 3 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 3 to 11
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 8 to 11
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 13 to 11
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 1 to 3
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 11 to 3
+-1.00000 0.12172 -1.00000 0.28662 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 0.30400 -1.00000 0.20924 -1.00000 -1.00000 Max prob 0.30400 from 2 to 11
+-1.00000 0.00670 0.02388 0.00828 -1.00000 -1.00000 -1.00000 -1.00000 0.00152 -1.00000 -1.00000 0.00879 -1.00000 0.00605 -1.00000 -1.00000 Max prob 0.02388 from 6 to 2
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		1 3 4 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		3 4 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 1 to 2
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 11 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 2 to 11
+-1.00000 0.00670 0.04873 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.00879 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.04873 from 3 to 2
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		3 4 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 1 to 2
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 11 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 2 to 11
+-1.00000 0.00670 0.04873 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.00879 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.04873 from 8 to 2
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		3 4 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 1 to 2
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 11 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 2 to 11
+-1.00000 0.00670 0.04873 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.00879 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.04873 from 13 to 2
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		1 4 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 3 to 2
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 8 to 2
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 13 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 2 to 3
+-1.00000 -1.00000 0.11186 0.01902 -1.00000 -1.00000 -1.00000 -1.00000 0.00348 -1.00000 -1.00000 -1.00000 -1.00000 0.01388 -1.00000 -1.00000 Max prob 0.11186 from 1 to 2
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		1 4 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 3 to 2
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 8 to 2
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 13 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 2 to 3
+-1.00000 -1.00000 0.11186 0.01902 -1.00000 -1.00000 -1.00000 -1.00000 0.00348 -1.00000 -1.00000 -1.00000 -1.00000 0.01388 -1.00000 -1.00000 Max prob 0.11186 from 11 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		1 3 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 3 to 11
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 8 to 11
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 13 to 11
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 1 to 3
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 11 to 3
+-1.00000 0.12172 -1.00000 0.28662 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 0.30400 -1.00000 0.20924 -1.00000 -1.00000 Max prob 0.30400 from 2 to 11
+-1.00000 0.00670 0.02388 0.00828 -1.00000 -1.00000 -1.00000 -1.00000 0.00152 -1.00000 -1.00000 0.00879 -1.00000 0.00605 -1.00000 -1.00000 Max prob 0.02388 from 9 to 2
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		1 3 4 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		3 4 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 1 to 2
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 11 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 2 to 11
+-1.00000 0.00670 0.04873 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.00879 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.04873 from 3 to 2
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		3 4 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 1 to 2
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 11 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 2 to 11
+-1.00000 0.00670 0.04873 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.00879 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.04873 from 8 to 2
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		3 4 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 1 to 2
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 11 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 2 to 11
+-1.00000 0.00670 0.04873 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.00879 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.04873 from 13 to 2
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		1 4 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 3 to 2
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 8 to 2
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 13 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 2 to 3
+-1.00000 -1.00000 0.11186 0.01902 -1.00000 -1.00000 -1.00000 -1.00000 0.00348 -1.00000 -1.00000 -1.00000 -1.00000 0.01388 -1.00000 -1.00000 Max prob 0.11186 from 1 to 2
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		1 4 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 3 to 2
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 8 to 2
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 13 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 2 to 3
+-1.00000 -1.00000 0.11186 0.01902 -1.00000 -1.00000 -1.00000 -1.00000 0.00348 -1.00000 -1.00000 -1.00000 -1.00000 0.01388 -1.00000 -1.00000 Max prob 0.11186 from 11 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		1 3 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 3 to 11
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 8 to 11
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 13 to 11
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 1 to 3
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 11 to 3
+-1.00000 0.12172 -1.00000 0.28662 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 0.30400 -1.00000 0.20924 -1.00000 -1.00000 Max prob 0.30400 from 2 to 11
+-1.00000 0.00670 0.02388 0.00828 -1.00000 -1.00000 -1.00000 -1.00000 0.00152 -1.00000 -1.00000 0.00879 -1.00000 0.00605 -1.00000 -1.00000 Max prob 0.02388 from 12 to 2
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		1 2 4 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		2 4 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 5 to 2
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 6 to 2
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 9 to 2
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 12 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 2 to 9
+-1.00000 -1.00000 0.02511 -1.00000 -1.00000 0.00115 0.07718 -1.00000 -1.00000 0.00871 -1.00000 -1.00000 0.00040 -1.00000 -1.00000 -1.00000 Max prob 0.07718 from 3 to 6
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		2 4 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 5 to 2
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 6 to 2
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 9 to 2
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 12 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 2 to 9
+-1.00000 -1.00000 0.02511 -1.00000 -1.00000 0.00115 0.07718 -1.00000 -1.00000 0.00871 -1.00000 -1.00000 0.00040 -1.00000 -1.00000 -1.00000 Max prob 0.07718 from 8 to 6
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		2 4 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 5 to 2
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 6 to 2
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 9 to 2
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 12 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 2 to 9
+-1.00000 -1.00000 0.02511 -1.00000 -1.00000 0.00115 0.07718 -1.00000 -1.00000 0.00871 -1.00000 -1.00000 0.00040 -1.00000 -1.00000 -1.00000 Max prob 0.07718 from 13 to 6
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		1 4 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 3 to 2
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 8 to 2
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 13 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 2 to 3
+-1.00000 -1.00000 0.11186 0.01902 -1.00000 -1.00000 -1.00000 -1.00000 0.00348 -1.00000 -1.00000 -1.00000 -1.00000 0.01388 -1.00000 -1.00000 Max prob 0.11186 from 5 to 2
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		1 4 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 3 to 2
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 8 to 2
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 13 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 2 to 3
+-1.00000 -1.00000 0.11186 0.01902 -1.00000 -1.00000 -1.00000 -1.00000 0.00348 -1.00000 -1.00000 -1.00000 -1.00000 0.01388 -1.00000 -1.00000 Max prob 0.11186 from 6 to 2
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		1 4 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 3 to 2
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 8 to 2
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 13 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 2 to 3
+-1.00000 -1.00000 0.11186 0.01902 -1.00000 -1.00000 -1.00000 -1.00000 0.00348 -1.00000 -1.00000 -1.00000 -1.00000 0.01388 -1.00000 -1.00000 Max prob 0.11186 from 9 to 2
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		1 4 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 3 to 2
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 8 to 2
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 13 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 2 to 3
+-1.00000 -1.00000 0.11186 0.01902 -1.00000 -1.00000 -1.00000 -1.00000 0.00348 -1.00000 -1.00000 -1.00000 -1.00000 0.01388 -1.00000 -1.00000 Max prob 0.11186 from 12 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		1 2 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 3 to 9
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 8 to 9
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 13 to 9
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 5 to 3
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 6 to 3
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 9 to 3
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 12 to 3
+-1.00000 -1.00000 -1.00000 0.07750 -1.00000 0.02087 0.07718 -1.00000 0.12904 0.15808 -1.00000 -1.00000 0.01382 0.05658 -1.00000 -1.00000 Max prob 0.15808 from 2 to 9
+-1.00000 -1.00000 0.01230 0.00905 -1.00000 0.00115 0.07718 -1.00000 0.00348 0.00871 -1.00000 -1.00000 0.00040 0.00661 -1.00000 -1.00000 Max prob 0.07718 from 1 to 6
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		1 2 4 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		2 4 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 5 to 2
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 6 to 2
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 9 to 2
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 12 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 2 to 9
+-1.00000 -1.00000 0.02511 -1.00000 -1.00000 0.00115 0.07718 -1.00000 -1.00000 0.00871 -1.00000 -1.00000 0.00040 -1.00000 -1.00000 -1.00000 Max prob 0.07718 from 3 to 6
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		2 4 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 5 to 2
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 6 to 2
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 9 to 2
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 12 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 2 to 9
+-1.00000 -1.00000 0.02511 -1.00000 -1.00000 0.00115 0.07718 -1.00000 -1.00000 0.00871 -1.00000 -1.00000 0.00040 -1.00000 -1.00000 -1.00000 Max prob 0.07718 from 8 to 6
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		2 4 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 5 to 2
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 6 to 2
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 9 to 2
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 12 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 2 to 9
+-1.00000 -1.00000 0.02511 -1.00000 -1.00000 0.00115 0.07718 -1.00000 -1.00000 0.00871 -1.00000 -1.00000 0.00040 -1.00000 -1.00000 -1.00000 Max prob 0.07718 from 13 to 6
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		1 4 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 3 to 2
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 8 to 2
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 13 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 2 to 3
+-1.00000 -1.00000 0.11186 0.01902 -1.00000 -1.00000 -1.00000 -1.00000 0.00348 -1.00000 -1.00000 -1.00000 -1.00000 0.01388 -1.00000 -1.00000 Max prob 0.11186 from 5 to 2
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		1 4 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 3 to 2
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 8 to 2
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 13 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 2 to 3
+-1.00000 -1.00000 0.11186 0.01902 -1.00000 -1.00000 -1.00000 -1.00000 0.00348 -1.00000 -1.00000 -1.00000 -1.00000 0.01388 -1.00000 -1.00000 Max prob 0.11186 from 6 to 2
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		1 4 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 3 to 2
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 8 to 2
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 13 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 2 to 3
+-1.00000 -1.00000 0.11186 0.01902 -1.00000 -1.00000 -1.00000 -1.00000 0.00348 -1.00000 -1.00000 -1.00000 -1.00000 0.01388 -1.00000 -1.00000 Max prob 0.11186 from 9 to 2
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		1 4 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 3 to 2
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 8 to 2
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		4 
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.11186
+-1.00000 -1.00000 0.11186 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.11186 from 13 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 2 to 3
+-1.00000 -1.00000 0.11186 0.01902 -1.00000 -1.00000 -1.00000 -1.00000 0.00348 -1.00000 -1.00000 -1.00000 -1.00000 0.01388 -1.00000 -1.00000 Max prob 0.11186 from 12 to 2
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		1 2 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 3 to 9
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 8 to 9
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 13 to 9
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 5 to 3
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 6 to 3
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 9 to 3
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 12 to 3
+-1.00000 -1.00000 -1.00000 0.07750 -1.00000 0.02087 0.07718 -1.00000 0.12904 0.15808 -1.00000 -1.00000 0.01382 0.05658 -1.00000 -1.00000 Max prob 0.15808 from 2 to 9
+-1.00000 -1.00000 0.01230 0.00905 -1.00000 0.00115 0.07718 -1.00000 0.00348 0.00871 -1.00000 -1.00000 0.00040 0.00661 -1.00000 -1.00000 Max prob 0.07718 from 11 to 6
+At land 2
+	Got ingredient 4 from Land 2.
+	Missing ingredients:
+		1 2 3 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		2 3 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 5 to 11
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 6 to 11
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 9 to 11
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 12 to 11
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 1 to 9
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 11 to 9
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 0.04258 0.03639 -1.00000 -1.00000 0.32261 -1.00000 0.16776 0.01228 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 3 to 9
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		2 3 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 5 to 11
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 6 to 11
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 9 to 11
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 12 to 11
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 1 to 9
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 11 to 9
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 0.04258 0.03639 -1.00000 -1.00000 0.32261 -1.00000 0.16776 0.01228 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 8 to 9
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		2 3 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 5 to 11
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 6 to 11
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 9 to 11
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 12 to 11
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 1 to 9
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 11 to 9
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 0.04258 0.03639 -1.00000 -1.00000 0.32261 -1.00000 0.16776 0.01228 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 13 to 9
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		1 3 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 3 to 11
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 8 to 11
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 13 to 11
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 1 to 3
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 11 to 3
+-1.00000 0.12172 -1.00000 0.28662 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 0.30400 -1.00000 0.20924 -1.00000 -1.00000 Max prob 0.30400 from 5 to 11
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		1 3 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 3 to 11
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 8 to 11
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 13 to 11
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 1 to 3
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 11 to 3
+-1.00000 0.12172 -1.00000 0.28662 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 0.30400 -1.00000 0.20924 -1.00000 -1.00000 Max prob 0.30400 from 6 to 11
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		1 3 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 3 to 11
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 8 to 11
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 13 to 11
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 1 to 3
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 11 to 3
+-1.00000 0.12172 -1.00000 0.28662 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 0.30400 -1.00000 0.20924 -1.00000 -1.00000 Max prob 0.30400 from 9 to 11
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		1 3 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 3 to 11
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 8 to 11
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		3 
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.24841
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.62040
+-1.00000 0.24841 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.62040 -1.00000 -1.00000 -1.00000 -1.00000 Max prob 0.62040 from 13 to 11
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 1 to 3
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 11 to 3
+-1.00000 0.12172 -1.00000 0.28662 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 0.30400 -1.00000 0.20924 -1.00000 -1.00000 Max prob 0.30400 from 12 to 11
+At land 1
+	Got ingredient 3 from Land 1.
+	Missing ingredients:
+		1 2 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 3 to 9
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 8 to 9
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 13 to 9
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 5 to 3
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 6 to 3
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 9 to 3
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 12 to 3
+-1.00000 -1.00000 -1.00000 0.07750 -1.00000 0.02087 0.07718 -1.00000 0.12904 0.15808 -1.00000 -1.00000 0.01382 0.05658 -1.00000 -1.00000 Max prob 0.15808 from 1 to 9
+At land 11
+	Got ingredient 3 from Land 11.
+	Missing ingredients:
+		1 2 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 3 to 9
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 8 to 9
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		2 
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.04258
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.07718
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.32261
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.02820
+-1.00000 -1.00000 -1.00000 -1.00000 -1.00000 0.04258 0.07718 -1.00000 -1.00000 0.32261 -1.00000 -1.00000 0.02820 -1.00000 -1.00000 -1.00000 Max prob 0.32261 from 13 to 9
+At land 5
+	Got ingredient 2 from Land 5.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 5 to 3
+At land 6
+	Got ingredient 2 from Land 6.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 6 to 3
+At land 9
+	Got ingredient 2 from Land 9.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 9 to 3
+At land 12
+	Got ingredient 2 from Land 12.
+	Missing ingredients:
+		1 
+At land 3
+	Got ingredient 1 from Land 3.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.65800
+At land 8
+	Got ingredient 1 from Land 8.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.12904
+At land 13
+	Got ingredient 1 from Land 13.
+	Missing ingredients:
+		
+	Got all ingredients! returning...
+	Cost to lab is 0.48034
+-1.00000 -1.00000 -1.00000 0.65800 -1.00000 -1.00000 -1.00000 -1.00000 0.12904 -1.00000 -1.00000 -1.00000 -1.00000 0.48034 -1.00000 -1.00000 Max prob 0.65800 from 12 to 3
+-1.00000 -1.00000 -1.00000 0.07750 -1.00000 0.02087 0.07718 -1.00000 0.12904 0.15808 -1.00000 -1.00000 0.01382 0.05658 -1.00000 -1.00000 Max prob 0.15808 from 11 to 9
+-1.00000 0.12172 -1.00000 0.07750 -1.00000 0.02087 0.01783 -1.00000 0.12904 0.15808 -1.00000 0.08220 0.00602 0.05658 -1.00000 -1.00000 Max prob 0.15808 from 2 to 9
+-1.00000 0.00670 0.01230 0.00394 -1.00000 0.00025 0.01647 -1.00000 0.00152 0.00186 -1.00000 0.00453 0.00009 0.00288 -1.00000 -1.00000 Max prob 0.01647 from 0 to 6
+0.00198
